@@ -1,0 +1,118 @@
+/* All the information to be applied for the entire website */
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	border: 0px solid black;
+}
+
+/*General Styles*/
+body{
+	border: 10px;
+	margin: 5px;
+	padding: 5px;
+	line-height: 1.2;
+}
+.divbg{
+	background-color: lightgrey;
+}
+.headings{
+	border-top:solid 5px;
+	border-bottom:solid 5px;
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 34%;
+	padding: 10px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	text-align:bottom;
+	color:white;
+	transition: all 300ms ease-in-out;
+}
+a:hover{
+	color:red;
+	font-size:30px;
+}
+/* all the code for headings */
+h1{
+color:white;
+font-size: 40px;
+text-align: center;
+}
+h2{
+	color: orange;
+	font-size:30px;
+	text-align: center;
+}
+h3{
+forn color:red;
+}
+h4, h5, h6{
+
+}
+/* All the code for paragraphs */
+p{
+
+}
+
+/* All the code for navs*/
+nav{
+margin-top: 20px;	
+text-align: center;
+font-size: 25px;
+color:white;
+background-color: rgba(0, 0, 0, 1);
+}
+
+/* All code for the images */
+img{
+max-width: 100%;
+}
+/* all code for the iframes and videos */
+iframe{
+max-height: 100%
+max-width
+}
+/* All the code for the header */
+header{
+	max-width:100%;
+	background-image:url('../images/head.gif');
+	height: 80vh;
+	background-size: cover;
+	box-shadow: 10px 10px 10px #888;
+		
+	}
+
+	.headertxt{
+		margin-top:20%;		
+		background-color: rgba(44, 33, 19, 0.7);
+		border-radius: 25px;
+	}
+	.headernav{
+			padding: 30px;
+		}
+/* All the code section ABOUT */
+
+
+/*Code for Section services */
+.skills{
+	background-color:green;
+	border-radius: 20px;
+}
+
+/* all the code for the footer */
+footer{
+
+}
+form{
+	border-color: solidblack;
+	border:1px;
+}
+
+
+
+
+ 
+
