@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{page.title}}</title>
+	<!-- All the content inside the head -->
+			<!-- Link to google fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Abel|Maven+Pro:500" rel="stylesheet">
+            <!-- This is a link to Gridlex -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.1/gridlex.min.css">
+			<!-- Link to stylesheet for CSS -->
+			<link rel="stylesheet" type="text/css" href="/styles/main.css">
+			<!-- To make the website responsive accross all devices -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Link to Font awesome -->
+            <script type="text/javascript" src="styles/scripts.js"></script>
+			<script src="https://use.fontawesome.com/9ffdc143fc.js"></script>
+	</head>
+<body>
+	<header id="home">
+		<nav id="navbar" class="grid-spaceAround">
+            <div class="col-12">
+						<a href="#about">Intro |</a>
+						<a href="#services">services |</a>
+						<a href="#experience">Experiences|</a>
+						<a href="#contact">Contact Me|</a>
+						<a href="#Clients">Clients |</a>
+			</div>
+		</nav>
+</header>	
+
+		{{content}}
+		<footer id="contact" class="grid-center">
+		<h2 class="headings"> Contact me </h2>
+		<div class="grid-center">
+			<form method="post" class="grid-center" action="http://formspree.io/rutambi@icloud.com">
+			<label class="col-7">Enter your first name *</label>
+			<input type="text" name="name" class="col-7"/>
+			<label class="col-7">Enter your second name *</label>
+			<input type="text" name="" class="col-7" />
+			<label class="col-7">Enter your email address</label>
+			<input type="text" name="" class="col-7"/>
+			<label class="col-7">Enter your Phone number</label>
+			<input type="text" name="" class="col-7" />
+			<label class="col-7">Enter your message for me here</label>
+			<textarea class="col-7" ></textarea>
+		<br>
+			<button type="submit" class="submitbutton col-6">Send</button>
+			</form>
+		</div>
+	
+
+	<div class="grid-center">
+		<!-- SLIDER -->
+	</div>
+
+	<nav class="grid-center col-6 footernav">
+		<a href=""><i class="fa fa-facebook" ></i></a>
+		<a href=""><i class="fa fa-instagram"></i></a>
+	</nav>
+</footer>
+</body>
+</html>
